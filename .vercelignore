@@ -1,0 +1,14 @@
+node_modules/
+npm-debug.log
+yarn-error.log
+.phpunit.cache/
+tests/
+vendor/
+.git/
+.env
+.env.local
+.env.*.local
+*.sqlite
+*.sqlite3
+storage/logs/*
+!storage/logs/.gitignore

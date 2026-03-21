@@ -1,0 +1,48 @@
+/* Dark fallback CSS to enforce dark theme until Vite build is available */
+:root {
+    --bg-color: #0b0b0b !important;
+    --text-color: #e6eef8 !important;
+    --card-bg: #0f0f0f !important;
+    --card-border: #1a1a1a !important;
+    --header-bg: linear-gradient(90deg, #0b0b0b 0%, #1a1a1a 100%) !important;
+    --muted-color: #9aa6bb !important;
+    --primary: #ffffff !important;
+    --btn-fore: #000000 !important;
+    --overlay-fore: #ffffff !important;
+}
+
+html[data-bs-theme="light"] body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+body { background-color: var(--bg-color) !important; color: var(--text-color) !important; }
+
+.header, .topbar, nav, .navbar { background: transparent !important; border-bottom: 1px solid var(--card-border) !important; }
+
+.card, .dashboard-card, .vehicle-card, .card-body, .data-table-container, .form-section { background-color: var(--card-bg) !important; border-color: var(--card-border) !important; color: var(--text-color) !important; }
+
+.btn-primary { background: #ffffff !important; color: var(--btn-fore) !important; border-color: transparent !important; }
+
+.btn-outline-primary { border-color: rgba(255,255,255,0.08) !important; color: var(--text-color) !important; background: transparent !important; }
+
+.footer, footer { background: #070707 !important; color: var(--text-color) !important; }
+
+.hero-media { background-color: #0b0b0b !important; }
+
+/* Make sure links and icons are visible */
+a, .nav-link, .dropdown-item { color: var(--text-color) !important; }
+
+/* Force monochrome images to show well */
+img, svg, .vehicle-image { filter: grayscale(100%) contrast(115%) brightness(98%) !important; }
+
+/* Ensure overlay text is visible */
+.product-overlay, .product-name, .product-price { color: var(--overlay-fore) !important; }
+
+/* Utilities */
+.text-muted { color: var(--muted-color) !important; }
+
+/* Small responsive tweaks */
+@media (max-width: 768px) {
+    .hero-media { height: 220px !important; }
+}

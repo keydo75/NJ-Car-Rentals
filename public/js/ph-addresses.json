@@ -1,0 +1,360 @@
+{
+  "regions": [
+    {
+      "code": "01",
+      "name": "Ilocos Region (Region I)",
+      "provinces": [
+        {"code": "0101", "name": "Ilocos Norte", "cities": [
+          {"code": "010101", "name": "Laoag City (Capital)"},
+          {"code": "010102", "name": "Batac City"},
+          {"code": "010107", "name": "Currimao"},
+          {"code": "010124", "name": "Dingras"},
+          {"code": "010131", "name": "Pagudpud"}
+        ]},
+        {"code": "0102", "name": "Ilocos Sur", "cities": [
+          {"code": "010201", "name": "Vigan City (Capital)"},
+          {"code": "010204", "name": "Candon City"},
+          {"code": "010208", "name": "Narvacan"}
+        ]},
+        {"code": "0103", "name": "La Union", "cities": [
+          {"code": "010301", "name": "San Fernando City (Capital)"},
+          {"code": "010305", "name": "Bauang"},
+          {"code": "010310", "name": "Agoo"}
+        ]},
+        {"code": "0104", "name": "Pangasinan", "cities": [
+          {"code": "010401", "name": "Dagupan City"},
+          {"code": "010402", "name": "San Carlos City"},
+          {"code": "010403", "name": "Alaminos City"},
+          {"code": "010405", "name": "Urdaneta City"}
+        ]}
+      ]
+    },
+    {
+      "code": "02",
+      "name": "Cagayan Valley (Region II)",
+      "provinces": [
+        {"code": "0201", "name": "Cagayan", "cities": [
+          {"code": "020107", "name": "Tuguegarao City (Capital)"},
+          {"code": "020108", "name": "Baggao"},
+          {"code": "020116", "name": "Gamu"}
+        ]},
+        {"code": "0202", "name": "Isabela", "cities": [
+          {"code": "020201", "name": "Ilagan City (Capital)"},
+          {"code": "020202", "name": "Santiago City"},
+          {"code": "020204", "name": "Cauayan City"}
+        ]},
+        {"code": "0207", "name": "Nueva Vizcaya", "cities": [
+          {"code": "020701", "name": "Bayombong (Capital)"},
+          {"code": "020704", "name": "Solano"}
+        ]},
+        {"code": "0209", "name": "Quirino", "cities": [
+          {"code": "020901", "name": "Cabarroguis (Capital)"}
+        ]}
+      ]
+    },
+    {
+      "code": "03",
+      "name": "Central Luzon (Region III)",
+      "provinces": [
+        {"code": "0345", "name": "Bulacan", "cities": [
+          {"code": "034501", "name": "Malolos City (Capital)"},
+          {"code": "034502", "name": "Meycauayan City"},
+          {"code": "034503", "name": "San Jose del Monte City"}
+        ]},
+        {"code": "0347", "name": "Bataan", "cities": [
+          {"code": "034701", "name": "Balanga City (Capital)"},
+          {"code": "034702", "name": "Mariveles"}
+        ]},
+        {"code": "0348", "name": "Nueva Ecija", "cities": [
+          {"code": "034801", "name": "Cabanatuan City"},
+          {"code": "034802", "name": "Gapan City"},
+          {"code": "034803", "name": "Science City of Muñoz"},
+          {"code": "034804", "name": "Palayan City (Capital)"}
+        ]},
+        {"code": "0349", "name": "Pampanga", "cities": [
+          {"code": "034901", "name": "San Fernando City (Capital)"},
+          {"code": "034902", "name": "Angeles City"},
+          {"code": "034903", "name": "Mabalacat City"}
+        ]},
+        {"code": "0352", "name": "Zambales", "cities": [
+          {"code": "035201", "name": "Iba (Capital)"},
+          {"code": "035299", "name": "Olongapo City"}
+        ]},
+        {"code": "0354", "name": "Tarlac", "cities": [
+          {"code": "035401", "name": "Tarlac City (Capital)"}
+        ]}
+      ]
+    },
+    {
+      "code": "05",
+      "name": "Bicol Region (Region V)",
+      "provinces": [
+        {"code": "0501", "name": "Albay", "cities": [
+          {"code": "050101", "name": "Legazpi City (Capital)"},
+          {"code": "050103", "name": "Tabaco City"},
+          {"code": "050104", "name": "Ligao City"}
+        ]},
+        {"code": "0502", "name": "Camarines Norte", "cities": [
+          {"code": "050201", "name": "Daet (Capital)"}
+        ]},
+        {"code": "0503", "name": "Camarines Sur", "cities": [
+          {"code": "050301", "name": "Naga City"},
+          {"code": "050302", "name": "Iriga City"},
+          {"code": "050314", "name": "Naga City"}
+        ]},
+        {"code": "0516", "name": "Sorsogon", "cities": [
+          {"code": "051601", "name": "Sorsogon City (Capital)"}
+        ]}
+      ]
+    },
+    {
+      "code": "06",
+      "name": "Western Visayas (Region VI)",
+      "provinces": [
+        {"code": "0601", "name": "Aklan", "cities": [
+          {"code": "060103", "name": "Kalibo (Capital)"}
+        ]},
+        {"code": "0603", "name": "Capiz", "cities": [
+          {"code": "060307", "name": "Roxas City (Capital)"}
+        ]},
+        {"code": "0606", "name": "Iloilo", "cities": [
+          {"code": "060601", "name": "Iloilo City (Capital)"},
+          {"code": "060606", "name": "Passi City"}
+        ]},
+        {"code": "0608", "name": "Negros Occidental", "cities": [
+          {"code": "060706", "name": "Bacolod City (Capital)"},
+          {"code": "060718", "name": "Victorias City"}
+        ]},
+        {"code": "0610", "name": "Guimaras", "cities": []}
+      ]
+    },
+    {
+      "code": "07",
+      "name": "Central Visayas (Region VII)",
+      "provinces": [
+        {"code": "0701", "name": "Bohol", "cities": [
+          {"code": "070107", "name": "Tagbilaran City (Capital)"}
+        ]},
+        {"code": "0702", "name": "Cebu", "cities": [
+          {"code": "070201", "name": "Cebu City (Capital)"},
+          {"code": "070207", "name": "Danao City"},
+          {"code": "070222", "name": "Lapu-Lapu City"},
+          {"code": "070239", "name": "Mandaue City"},
+          {"code": "070242", "name": "Toledo City"}
+        ]},
+        {"code": "0707", "name": "Negros Oriental", "cities": [
+          {"code": "070707", "name": "Dumaguete City (Capital)"}
+        ]},
+        {"code": "0709", "name": "Siquijor", "cities": []}
+      ]
+    },
+    {
+      "code": "08",
+      "name": "Eastern Visayas (Region VIII)",
+      "provinces": [
+        {"code": "0801", "name": "Biliran", "cities": []},
+        {"code": "0803", "name": "Eastern Samar", "cities": [
+          {"code": "080309", "name": "Borongan City (Capital)"}
+        ]},
+        {"code": "0807", "name": "Leyte", "cities": [
+          {"code": "080801", "name": "Ormoc City"},
+          {"code": "080819", "name": "Tacloban City (Capital)"}
+        ]},
+        {"code": "0814", "name": "Northern Samar", "cities": []},
+        {"code": "0816", "name": "Samar (Western Samar)", "cities": []},
+        {"code": "0817", "name": "Southern Leyte", "cities": []}
+      ]
+    },
+    {
+      "code": "09",
+      "name": "Zamboanga Peninsula (Region IX)",
+      "provinces": [
+        {"code": "0902", "name": "Isabela City", "cities": []},
+        {"code": "0905", "name": "Zamboanga del Norte", "cities": [
+          {"code": "090501", "name": "Dapitan City"},
+          {"code": "090508", "name": "Dipolog City (Capital)"}
+        ]},
+        {"code": "0908", "name": "Zamboanga del Sur", "cities": [
+          {"code": "090801", "name": "Zamboanga City (Capital)"},
+          {"code": "090806", "name": "Pagadian City (Capital)"}
+        ]},
+        {"code": "0910", "name": "Zamboanga Sibugay", "cities": []}
+      ]
+    },
+    {
+      "code": "10",
+      "name": "Northern Mindanao (Region X)",
+      "provinces": [
+        {"code": "1001", "name": "Bukidnon", "cities": [
+          {"code": "100102", "name": "Malaybalay (Capital)"}
+        ]},
+        {"code": "1002", "name": "Camiguin", "cities": []},
+        {"code": "1003", "name": "Lanao del Norte", "cities": [
+          {"code": "100301", "name": "Iligan City"}
+        ]},
+        {"code": "1013", "name": "Misamis Occidental", "cities": [
+          {"code": "101301", "name": "Oroquieta City"},
+          {"code": "101322", "name": "Ozamiz City"}
+        ]},
+        {"code": "1014", "name": "Misamis Oriental", "cities": [
+          {"code": "101402", "name": "Cagayan de Oro City (Capital)"}
+        ]}
+      ]
+    },
+    {
+      "code": "11",
+      "name": "Davao Region (Region XI)",
+      "provinces": [
+        {"code": "1101", "name": "Davao de Oro", "cities": []},
+        {"code": "1102", "name": "Davao del Norte", "cities": [
+          {"code": "110202", "name": "Tagum (Capital)"}
+        ]},
+        {"code": "1103", "name": "Davao del Sur", "cities": [
+          {"code": "110303", "name": "Digos (Capital)"}
+        ]},
+        {"code": "1107", "name": "Davao Occidental", "cities": []},
+        {"code": "1108", "name": "Davao Oriental", "cities": [
+          {"code": "110801", "name": "Mati (Capital)"}
+        ]}
+      ]
+    },
+    {
+      "code": "12",
+      "name": "SOCCSKSARGEN (Region XII)",
+      "provinces": [
+        {"code": "1201", "name": "Cotabato (North Cotabato)", "cities": [
+          {"code": "120103", "name": "Kidapawan (Capital)"}
+        ]},
+        {"code": "1202", "name": "South Cotabato", "cities": [
+          {"code": "120206", "name": "Koronadal (Capital)"},
+          {"code": "120209", "name": "General Santos City"}
+        ]},
+        {"code": "1204", "name": "Sultan Kudarat", "cities": [
+          {"code": "120403", "name": "Tacurong"}
+        ]},
+        {"code": "1205", "name": "Sarangani", "cities": []}
+      ]
+    },
+    {
+      "code": "13",
+      "name": "National Capital Region (NCR)",
+      "provinces": [
+        {"code": "1374", "name": "Metro Manila", "cities": [
+          {"code": "137401", "name": "Manila (Capital)"},
+          {"code": "137402", "name": "Quezon City"},
+          {"code": "137403", "name": "Makati City"},
+          {"code": "137404", "name": "Pasig City"},
+          {"code": "137405", "name": "Mandaluyong City"},
+          {"code": "137406", "name": "Marikina City"},
+          {"code": "137407", "name": "Parañaque City"},
+          {"code": "137408", "name": "Pasay City"},
+          {"code": "137409", "name": "San Juan City"},
+          {"code": "137410", "name": "Taguig City"},
+          {"code": "137411", "name": "Las Piñas City"},
+          {"code": "137412", "name": "Muntinlupa City"},
+          {"code": "137413", "name": "Navotas City"},
+          {"code": "137414", "name": "Malabon City"},
+          {"code": "137415", "name": "Valenzuela City"},
+          {"code": "137416", "name": "Caloocan City"},
+          {"code": "137417", "name": "Pateros"}
+        ]}
+      ]
+    },
+    {
+      "code": "14",
+      "name": "Calabarzon (Region IV-A)",
+      "provinces": [
+        {"code": "1401", "name": "Cavite", "cities": [
+          {"code": "140103", "name": "Trece Martires City (Capital)"},
+          {"code": "140107", "name": "Dasmariñas City"},
+          {"code": "140108", "name": "Bacoor City"},
+          {"code": "140112", "name": "Imus City"}
+        ]},
+        {"code": "1402", "name": "Laguna", "cities": [
+          {"code": "140202", "name": "San Pablo City"},
+          {"code": "140205", "name": "Calamba City"},
+          {"code": "140207", "name": "Cabuyao City"},
+          {"code": "140208", "name": "Santa Cruz (Capital)"}
+        ]},
+        {"code": "1403", "name": "Batangas", "cities": [
+          {"code": "140301", "name": "Batangas City (Capital)"},
+          {"code": "140302", "name": "Lipa City"},
+          {"code": "140308", "name": "Tanjay City"}
+        ]},
+        {"code": "1407", "name": "Rizal", "cities": [
+          {"code": "140701", "name": "Antipolo City (Capital)"},
+          {"code": "140710", "name": "Taytay"},
+          {"code": "140712", "name": "Cainta"}
+        ]},
+        {"code": "1408", "name": "Quezon", "cities": [
+          {"code": "140801", "name": "Lucena City (Capital)"},
+          {"code": "140802", "name": "Tayabas City"}
+        ]}
+      ]
+    },
+    {
+      "code": "15",
+      "name": "Mimaropa (Region IV-B)",
+      "provinces": [
+        {"code": "1501", "name": "Marinduque", "cities": []},
+        {"code": "1502", "name": "Occidental Mindoro", "cities": []},
+        {"code": "1503", "name": "Oriental Mindoro", "cities": [
+          {"code": "150301", "name": "Calapan City (Capital)"}
+        ]},
+        {"code": "1507", "name": "Palawan", "cities": [
+          {"code": "150707", "name": "Puerto Princesa City (Capital)"}
+        ]},
+        {"code": "1508", "name": "Romblon", "cities": []}
+      ]
+    },
+    {
+      "code": "16",
+      "name": "Mimaropa (Region MIMAROPA)", 
+      "provinces": [
+        {"code": "051601", "name": "Albay", "cities": [
+          {"code": "160101", "name": "Legazpi City"},
+          {"code": "160103", "name": "Tabaco City"}
+        ]},
+        {"code": "1602", "name": "Camarines Norte", "cities": [
+          {"code": "160201", "name": "Daet (Capital)"}
+        ]},
+        {"code": "1603", "name": "Camarines Sur", "cities": [
+          {"code": "160301", "name": "Naga City"},
+          {"code": "160302", "name": "Iriga City"}
+        ]},
+        {"code": "1606", "name": "Catanduanes", "cities": []},
+        {"code": "1609", "name": "Masbate", "cities": [
+          {"code": "160901", "name": "Masbate City"}
+        ]},
+        {"code": "1610", "name": "Sorsogon", "cities": [
+          {"code": "161001", "name": "Sorsogon City"}
+        ]}
+      ]
+    },
+    {
+      "code": "17",
+      "name": "Bangsamoro (BARMM)",
+      "provinces": [
+        {"code": "1701", "name": "Basilan", "cities": []},
+        {"code": "1702", "name": "Lanao del Sur", "cities": []},
+        {"code": "1703", "name": "Maguindanao", "cities": []},
+        {"code": "1705", "name": "Sulu", "cities": []},
+        {"code": "1706", "name": "Tawi-Tawi", "cities": []}
+      ]
+    },
+    {
+      "code": "18",
+      "name": "Cordillera Administrative Region (CAR)",
+      "provinces": [
+        {"code": "1801", "name": "Abra", "cities": []},
+        {"code": "1802", "name": "Apayao", "cities": []},
+        {"code": "1804", "name": "Benguet", "cities": [
+          {"code": "180404", "name": "Baguio City"}
+        ]},
+        {"code": "1805", "name": "Ifugao", "cities": []},
+        {"code": "1807", "name": "Kalinga", "cities": []},
+        {"code": "1808", "name": "Mountain Province", "cities": []}
+      ]
+    }
+  ]
+}

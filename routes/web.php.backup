@@ -1,0 +1,313 @@
+/* NJ Car Rentals - Main Stylesheet with Dark Mode */
+
+:root {
+    /* Light theme variables */
+    --primary: #667eea;
+    --secondary: #764ba2;
+    --success: #28a745;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --info: #17a2b8;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    
+    /* Light theme colors */
+    --bg-color: #ffffff;
+    --text-color: #212529;
+    --card-bg: #ffffff;
+    --card-border: #e9ecef;
+    --header-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --footer-bg: #343a40;
+    --footer-text: #ffffff;
+    --input-bg: #ffffff;
+    --input-border: #ced4da;
+    --sidebar-bg: linear-gradient(180deg, #2c3e50 0%, #1a2530 100%);
+    --table-bg: #ffffff;
+    --table-border: #dee2e6;
+    --muted-color: #6c757d;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-bs-theme="dark"] {
+    /* Dark theme variables */
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --card-bg: #1e1e1e;
+    --card-border: #2d2d2d;
+    --header-bg: linear-gradient(135deg, #4a5fcf 0%, #5a3d8c 100%);
+    --footer-bg: #0d1117;
+    --footer-text: #cccccc;
+    --input-bg: #2d2d2d;
+    --input-border: #404040;
+    --sidebar-bg: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+    --table-bg: #1e1e1e;
+    --table-border: #2d2d2d;
+    --muted-color: #8a8a8a;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+/* ===== BASE STYLES ===== */
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===== NAVIGATION ===== */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.bg-primary-gradient {
+    background: var(--header-bg) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* ===== CARDS ===== */
+.card {
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    background-color: var(--card-bg);
+    box-shadow: 0 4px 6px var(--shadow-color);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px var(--shadow-color);
+}
+
+.card-header {
+    background: var(--header-bg);
+    color: white;
+    border-bottom: 1px solid var(--card-border);
+    font-weight: 600;
+}
+
+/* ===== FORMS ===== */
+.form-control {
+    border: 2px solid var(--input-border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+    background-color: var(--input-bg);
+    color: var(--text-color);
+}
+
+.form-label {
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.form-select {
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    border-color: var(--input-border);
+}
+
+/* ===== TABLES ===== */
+.table {
+    background-color: var(--table-bg);
+    color: var(--text-color);
+    border-color: var(--table-border);
+}
+
+.table thead th {
+    background: var(--header-bg);
+    color: white;
+    border-color: var(--table-border);
+}
+
+.table tbody td {
+    border-color: var(--table-border);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: var(--footer-bg) !important;
+    color: var(--footer-text) !important;
+}
+
+footer a {
+    color: var(--footer-text) !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+/* ===== UTILITIES ===== */
+.text-muted {
+    color: var(--muted-color) !important;
+}
+
+.bg-light {
+    background-color: var(--card-bg) !important;
+}
+
+.border {
+    border-color: var(--card-border) !important;
+}
+
+/* ===== BUTTONS ===== */
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.btn-outline-primary {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    border-color: transparent;
+    transform: translateY(-2px);
+}
+
+/* ===== TEXT GRADIENT ===== */
+.text-gradient {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* ===== STAT CARDS ===== */
+.stat-card {
+    border-left: 4px solid var(--primary);
+}
+
+.stat-card .display-4 {
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* ===== VEHICLE CARDS ===== */
+.vehicle-card {
+    background: var(--card-bg);
+    border: 2px solid var(--card-border);
+    transition: all 0.3s ease;
+}
+
+.vehicle-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}
+
+/* ===== MODALS ===== */
+.modal-content {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--card-border);
+}
+
+.modal-header {
+    border-bottom-color: var(--card-border);
+}
+
+.modal-footer {
+    border-top-color: var(--card-border);
+}
+
+/* ===== ALERTS ===== */
+.alert {
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border-left: 4px solid;
+}
+
+.alert-success {
+    border-left-color: var(--success);
+}
+
+.alert-danger {
+    border-left-color: var(--danger);
+}
+
+.alert-warning {
+    border-left-color: var(--warning);
+}
+
+.alert-info {
+    border-left-color: var(--info);
+}
+
+/* ===== BADGES ===== */
+.badge {
+    font-weight: 500;
+}
+
+/* ===== DASHBOARD ===== */
+.dashboard-sidebar {
+    background: var(--sidebar-bg);
+    color: white;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
